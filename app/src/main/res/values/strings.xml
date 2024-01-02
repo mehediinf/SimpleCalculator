@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="editText1">Enter Number 1</string>
+    <string name="editText2">Enter Number 2</string>
+    <string name="addText">Add</string>
+    <string name="subText">Sub</string>
+    <string name="mulText">Mul</string>
+    <string name="divText">Div</string>
+    <string name="squareButtonText">Square</string>
+    <string name="squareRootButtonText">Root</string>
+    <string name="modulusButtonText">Mod</string>
+
+</resources>

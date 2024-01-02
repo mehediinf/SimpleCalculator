@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText1Id"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:inputType="numberDecimal"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/editText1"
+        android:backgroundTint="#101010"
+        />
+    <EditText
+        android:id="@+id/editText2Id"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="15dp"
+        android:textCursorDrawable="@null"
+        android:hint="@string/editText2"
+        android:backgroundTint="#1b1a1a"
+        />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        >
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addButtonId"
+            android:textSize="20sp"
+            android:layout_marginRight="5dp"
+            android:text="@string/addText"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subButtonId"
+            android:textSize="20sp"
+            android:text="@string/subText"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multButtonId"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/mulText"
+            android:textStyle="bold"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/divButtonId"
+            android:textSize="20sp"
+            android:text="@string/divText"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/squareButtonId"
+            android:textSize="20sp"
+            android:text="@string/squareButtonText"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/squareRootButtonId"
+            android:textSize="20sp"
+            android:text="@string/squareRootButtonText"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/modulusButtonId"
+            android:textSize="20sp"
+            android:text="@string/modulusButtonText"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="40dp"
+        android:layout_gravity="center"
+        android:background="#DDF309"
+        android:layout_marginTop="60dp"
+        android:id="@+id/resultTextViewId"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="85dp"
+        android:padding="10dp"
+        android:text="@Launched by Mehedi Hasan"
+        android:textSize="10sp"
+
+        android:textStyle="bold" />
+
+</LinearLayout>
