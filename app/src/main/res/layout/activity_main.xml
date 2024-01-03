@@ -137,7 +137,7 @@
         android:textSize="20sp"
         android:padding="40dp"
         android:layout_gravity="center"
-        android:background="#DDF309"
+        android:background="#626FB5"
         android:layout_marginTop="60dp"
         android:id="@+id/resultTextViewId"
         />
